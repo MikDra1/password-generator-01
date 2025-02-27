@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { useProject } from "../contexts/ProjectProvider";
 
 const StyledDisplayPassword = styled.div`
-  padding: 1rem;
+  padding: 1.25rem 1.5rem;
   background-color: var(--dark-gray);
   width: 100%;
 
@@ -16,7 +16,7 @@ const StyledDisplayPassword = styled.div`
 const StyledPassword = styled.p`
   color: var(--light-gray);
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   width: 100%;
   user-select: none;
 
@@ -43,7 +43,7 @@ const FlexCopied = styled.div`
   display: flex;
   align-items: center;
   position: absolute;
-  right: 1rem;
+  right: 1.5rem;
   top: 50%;
   transform: translateY(-50%);
   gap: 1rem;
